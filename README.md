@@ -7,7 +7,7 @@ Site utilizado para testar os vários métodos de uma API REST com resultados f�
 Para preparar a aplicação, iniciando o banco de dados e depois a própria aplicação, execute:
 
 ```bash
-https://github.com/hector-vido/flask-api.git
+git clone https://github.com/hector-vido/flask-api.git
 cd flask-api
 apt-get install -y sqlite3
 sqlite3 data.db < migration/init.sql
