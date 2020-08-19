@@ -9,8 +9,9 @@ Para preparar a aplicação, iniciando o banco de dados e depois a própria apli
 ```bash
 git clone https://github.com/hector-vido/flask-api.git
 cd flask-api
-apt-get install -y sqlite3
-sqlite3 data.db < migration/init.sql
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
 python3 app.py
 ```
 

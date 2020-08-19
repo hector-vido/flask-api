@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import sqlite3
+from migration import migration
 from flask import Flask, jsonify, request, make_response, render_template
 
 app = Flask(__name__)
